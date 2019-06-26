@@ -314,7 +314,7 @@ Pada bagian atas deklarasi kelas, menandakan bahwa semua method di dalam kelas t
  ### 2. @Transactional(readOnly=false)
 Pada bagian atas deklarasi method, menandakan bahwa method tersebut dapat mengubah data di database. Anotasi ini diperlukan untuk method-method yang mengubah data: `addEmployee()`, `removeEmployee()` dan `updateEmployee()`.
 
-## 3. Aplikasi Utama
+## 6. Aplikasi Utama
 Melalui aplikasi utama, kita menguji apakah kelas Service kita sudah berfungsi sebagaimana mestinya. Kelas utama sebagai berikut:
 ```java
 @Autowired  
